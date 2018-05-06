@@ -1,8 +1,6 @@
 # TigaHello
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tiga_hello`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is made for learning purposes. This is just a gem that says hello.
 
 ## Installation
 
@@ -22,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+TigaHello::Regular.say_hello
+=> 'Hello!'
+
+TigaHello::Special.say_hello('Sonny')
+=> 'Hello, Sonny!'
+```
 
 ## Development
 
@@ -32,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tiga_hello.
+Bug reports and pull requests are welcome on GitHub at https://github.com/neoson9999/tiga_hello.
 
 ## License
 
